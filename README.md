@@ -1,5 +1,5 @@
-# Stacked_Bidirectional_Unidirectional_LSTM
-## Deep Bidirectional and Unidirectional LSTM Recurrent Neural Network for Network-wide Traffic Speed Prediction
+# Deep Stacked Bidirectional and Unidirectional LSTM Recurrent Neural Network
+#### For **Network-wide Traffic Speed Prediction**
 
 ## Prologue
 Normally, we use RNN to characterize the forward dependency of time series data. While, bi-directional RNNs can capture both forward and backward dependencies in time series data. It has been shown that stacked (multi-layer) RNNs/LSTMs work better than one-layer RNN/LSTM in many NLP related applications. It is good to try a combination of bi-directional RNNs and uni-directional RNNs. We find that a neural network with multiple stacked bi-directional LSTMs followed by an uni-directiaonl LSTM works better.
