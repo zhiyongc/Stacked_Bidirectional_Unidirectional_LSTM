@@ -7,7 +7,7 @@ Normally, we use RNN to characterize the forward dependency of time series data.
 ## New Progress
 We are designing several internal structures in the LSTM cell to overcome the missing values problem in time series data (replacing the masking layer in the following figure), and to make the model to be suitable for graph-structured data. 
 
-The original model is implemented by Keras. A newly improved version will soon be implemented by PyTorch and released. 
+The original model is implemented by Keras. A newly improved version implemented by PyTorch will soon be released. 
 
 ### Environment
 * Python 3.6.1
