@@ -2,7 +2,7 @@
 Stacked Bidirectional and Unidirectional LSTM Recurrent Neural Network 
 
 ### Model Structure
-![alt text](/Images/Architecture.tiff)
+![alt text](/Images/Architecture.png)
 
 
 ## Cite
