@@ -19,12 +19,14 @@ For more detailed information about the model, you can refer to our [paper](http
 ## Model Structure
 ![alt text](/Images/Architecture.png)
 
+<!--
 ## Data 
 To run the code, you need to download the data from the following link: https://drive.google.com/drive/folders/1Mw8tjiPD-wknFu6dY5NTw4tqOiu5X9rz?usp=sharing and put them in the right directory. The data contains two traffic networks in Seattle: a loop detector based freeway network and an INRIX data-based urban traffic network. The details about these netowrk is described in the reference paper.
 
 Description of the datasets:
 * `inrix_seattle_speed_matrix_2012`: INRIX Speed Matrix (can be read by Pandas)
 * `speed_matrix_2015`: Loop Speed Matrix (can be read by Pandas)
+-->
 
 ## Cite
 Please cite our paper if you use this code or data in your own work:
