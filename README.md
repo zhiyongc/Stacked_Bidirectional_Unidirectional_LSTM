@@ -21,15 +21,12 @@ For more detailed information about the model, you can refer to our [paper](http
 
 
 ## Data 
-To run the code, you need to download the data from the following link: https://drive.google.com/drive/folders/1Mw8tjiPD-wknFu6dY5NTw4tqOiu5X9rz?usp=sharing and put them in the right directory. The data contains two traffic networks in Seattle: a loop detector based freeway network and an INRIX data-based urban traffic network. The details about these netowrk is described in the reference paper.
+To run the code, you need to download the loop detector data from my GitHub link: https://github.com/zhiyongc/Seattle-Loop-Data. I'm sorry that the INRIX data can not be shared because of the confidentiality issues.
 
-Description of the datasets:
-* `inrix_seattle_speed_matrix_2012`: INRIX Speed Matrix (can be read by Pandas)
-* `speed_matrix_2015`: Loop Speed Matrix (can be read by Pandas)
 
 
 ## Cite
-Please cite our paper if you use this code or data in your own work:
+Hope our work can benefit your. If you use this code or data in your own workPlease cite our paper:
 [Deep Bidirectional and Unidirectional LSTM Recurrent Neural Network for Network-wide Traffic Speed Prediction](https://arxiv.org/abs/1801.02143)
 ```
 @article{cui2018deep,
@@ -37,6 +34,15 @@ Please cite our paper if you use this code or data in your own work:
   author={Cui, Zhiyong and Ke, Ruimin and Wang, Yinhai},
   journal={arXiv preprint arXiv:1801.02143},
   year={2018}
+}
+```
+or
+```
+@inproceedings{cui2016deep,
+  title={Deep Stacked Bidirectional and Unidirectional LSTM Recurrent Neural Network for Network-wide Traffic Speed Prediction},
+  author={Cui, Zhiyong and Ke, Ruimin and Wang, Yinhai},
+  booktitle={6th International Workshop on Urban Computing (UrbComp 2017)},
+  year={2016}
 }
 ```
 
