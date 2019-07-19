@@ -226,7 +226,7 @@ def Train_BiLSTM(train_dataloader, valid_dataloader, num_epochs = 3):
                                                                                          np.around([cur_time - pre_time], decimals=8) ) )
                 pre_time = cur_time
 
-    return lstm, [losses_train, losses_interval_train, losses_valid, losses_interval_valid]
+    return bilstm, [losses_train, losses_interval_train, losses_valid, losses_interval_valid]
 
 def Train_Multi_Bi_LSTM(train_dataloader, valid_dataloader, num_epochs = 3):
     
@@ -335,4 +335,4 @@ def Train_Multi_Bi_LSTM(train_dataloader, valid_dataloader, num_epochs = 3):
                                                                                          np.around([cur_time - pre_time], decimals=8) ) )
                 pre_time = cur_time
 
-    return lstm, [losses_train, losses_interval_train, losses_valid, losses_interval_valid]
+    return multiBiLSTM, [losses_train, losses_interval_train, losses_valid, losses_interval_valid]
